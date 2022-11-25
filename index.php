@@ -9,7 +9,7 @@
 <body>
     <form action="censored.php" method="GET">
         <label for="paragraph">Paragrafo</label>
-        <input type="text" id="paragraph" name="paragraph">
+        <textarea type="text" id="paragraph" name="paragraph" cols="30" rows="10"></textarea>
         <label for="bad_word">Parola da censurare</label>
         <input type="text" id="bad_word" name="bad_word">
         <hr>
